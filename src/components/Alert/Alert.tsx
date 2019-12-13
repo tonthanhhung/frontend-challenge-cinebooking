@@ -8,15 +8,15 @@ const Alert: React.FC<Props> = ({ children, onClose }) => {
   return (
     <div
       className={
-        "border border-red-400 text-white px-3 py-2 relative " +
+        "absolute top-0 right-0 left-0 border border-red-400 text-white px-3 py-2 text-center " +
         `${children ? "visible" : "invisible"}`
       }
       style={{
-        backgroundColor: "#c5303073"
+        backgroundColor: "#c53030e6"
       }}
       role="alert"
     >
-      <span className="block sm:inline">{children}</span>
+      <span className="block sm:inline">{children || "Error!"}</span>
       <span
         className="absolute top-0 bottom-0 right-0 px-3 py-2"
         onClick={onClose}

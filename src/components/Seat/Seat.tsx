@@ -46,7 +46,7 @@ const Seat: React.FC<Props> = ({
   return (
     <div
       className={classNames(
-        "seat inline-block w-8 h-8 mr-1 mb-1 md:mr-2 md: mb-2 rounded-lg first:text-red-800 last:text-blue=600 flex items-center justify-center border-2 hover:border-yellow-500 cursor-pointer uppercase text-white ",
+        "seat inline-block w-6 h-6 border md:w-8 md:h-8 md:border-2 mr-1 mb-1 md:mr-2 md: mb-2 rounded-lg first:text-red-800 last:text-blue=600 flex items-center justify-center  hover:border-yellow-500 cursor-pointer uppercase text-white ",
         seatModifierClass
       )}
       onClick={() =>

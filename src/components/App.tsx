@@ -7,8 +7,10 @@ export const App = () => {
   const maxReservation = 6;
   return (
     <div className="w-full h-full flex flex-col">
-      <div className="flex-1 p-2">
+      <div className="flex-1 md:p-2 bg-gray-800">
         <SeatReservation
+          movieName={screen.movieName}
+          movieInfo={screen.movieInfo}
           cinemaName={screen.cinemaName}
           time={screen.time}
           numberOfColumns={screen.col}

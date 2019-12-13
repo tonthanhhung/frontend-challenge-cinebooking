@@ -1,21 +1,12 @@
-## TypeScript React Template
+## Frontend Challenge Cinema Booking
 
-A minimum template for boostrap React application based on Typescript.
+### Demo
 
-Use this as a template when you start a new repository.
+https://frontend-challenge-cinebooking.now.sh/
 
-### What included and configured are:
+### How to start
 
-- TypeScript
-- React
-- SCSS and TailwindCSS with a preset of colors
-- Parcel as a bundler
-- Support IE 11
-- Prettier in commithook
-
-### How to use
-
-- Start developement
+- Start development
 
 ```
     $ yarn start
